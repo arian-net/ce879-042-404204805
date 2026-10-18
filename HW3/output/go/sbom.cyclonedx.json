@@ -1,0 +1,514 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:36a5b67f-874d-4313-849a-f9ee1694e209",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-10T18:14:49Z",
+    "tools": [
+      {
+        "vendor": "sca",
+        "name": "supply-chain-analyzer",
+        "version": "1.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "pkg:github/golang/go@30719fe26f57",
+      "name": "golang/go",
+      "version": "30719fe26f57",
+      "description": "The Go programming language",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/golang/go.git"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/google/pprof@0.0.0-20260507013755-92041b743c96",
+      "name": "github.com/google/pprof",
+      "purl": "pkg:golang/github.com/google/pprof@0.0.0-20260507013755-92041b743c96",
+      "version": "0.0.0-20260507013755-92041b743c96",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 AND BSD-3-Clause"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/cmd/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/mmcloughlin/avo@0.6.0",
+      "name": "github.com/mmcloughlin/avo",
+      "purl": "pkg:golang/github.com/mmcloughlin/avo@0.6.0",
+      "version": "0.6.0",
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause AND LGPL-3.0 AND BSD-2-Clause"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/crypto/md5/_asm/go.mod, src/crypto/sha1/_asm/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/arch@0.27.1-0.20260521044007-9c1a596a2c97",
+      "name": "golang.org/x/arch",
+      "purl": "pkg:golang/golang.org/x/arch@0.27.1-0.20260521044007-9c1a596a2c97",
+      "version": "0.27.1-0.20260521044007-9c1a596a2c97",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/cmd/go.mod, src/simd/archsimd/_gen/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/build@0.0.0-20260522210304-d55d0041b921",
+      "name": "golang.org/x/build",
+      "purl": "pkg:golang/golang.org/x/build@0.0.0-20260522210304-d55d0041b921",
+      "version": "0.0.0-20260522210304-d55d0041b921",
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause AND ISC"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/cmd/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/crypto@0.52.1-0.20260526024921-9beb694f9766",
+      "name": "golang.org/x/crypto",
+      "purl": "pkg:golang/golang.org/x/crypto@0.52.1-0.20260526024921-9beb694f9766",
+      "version": "0.52.1-0.20260526024921-9beb694f9766",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/mod@0.36.1-0.20260520130633-087f6515dd3b",
+      "name": "golang.org/x/mod",
+      "purl": "pkg:golang/golang.org/x/mod@0.36.1-0.20260520130633-087f6515dd3b",
+      "version": "0.36.1-0.20260520130633-087f6515dd3b",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/cmd/go.mod, src/crypto/md5/_asm/go.mod, src/crypto/sha1/_asm/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/net@0.55.1-0.20260526154343-657eb1317b5d",
+      "name": "golang.org/x/net",
+      "purl": "pkg:golang/golang.org/x/net@0.55.1-0.20260526154343-657eb1317b5d",
+      "version": "0.55.1-0.20260526154343-657eb1317b5d",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/sync@0.20.0",
+      "name": "golang.org/x/sync",
+      "purl": "pkg:golang/golang.org/x/sync@0.20.0",
+      "version": "0.20.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/cmd/go.mod, src/crypto/md5/_asm/go.mod, src/crypto/sha1/_asm/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/sys@0.45.0",
+      "name": "golang.org/x/sys",
+      "purl": "pkg:golang/golang.org/x/sys@0.45.0",
+      "version": "0.45.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/go.mod, src/cmd/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/telemetry@0.0.0-20260519152614-eab6ae52b5e2",
+      "name": "golang.org/x/telemetry",
+      "purl": "pkg:golang/golang.org/x/telemetry@0.0.0-20260519152614-eab6ae52b5e2",
+      "version": "0.0.0-20260519152614-eab6ae52b5e2",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/cmd/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/term@0.43.0",
+      "name": "golang.org/x/term",
+      "purl": "pkg:golang/golang.org/x/term@0.43.0",
+      "version": "0.43.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/cmd/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/tools@0.45.1-0.20260708165844-7044391f8d9f",
+      "name": "golang.org/x/tools",
+      "purl": "pkg:golang/golang.org/x/tools@0.45.1-0.20260708165844-7044391f8d9f",
+      "version": "0.45.1-0.20260708165844-7044391f8d9f",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/cmd/go.mod, src/runtime/_mkmalloc/go.mod, src/crypto/md5/_asm/go.mod, src/crypto/sha1/_asm/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v3@3.0.1",
+      "name": "gopkg.in/yaml.v3",
+      "purl": "pkg:golang/gopkg.in/yaml.v3@3.0.1",
+      "version": "3.0.1",
+      "licenses": [
+        {
+          "expression": "MIT AND Apache-2.0"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/simd/archsimd/_gen/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/ianlancetaylor/demangle@0.0.0-20250417193237-f615e6bd150b",
+      "name": "github.com/ianlancetaylor/demangle",
+      "purl": "pkg:golang/github.com/ianlancetaylor/demangle@0.0.0-20250417193237-f615e6bd150b",
+      "version": "0.0.0-20250417193237-f615e6bd150b",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/cmd/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/text@0.37.0",
+      "name": "golang.org/x/text",
+      "purl": "pkg:golang/golang.org/x/text@0.37.0",
+      "version": "0.37.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/go.mod, src/cmd/go.mod"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:golang/rsc.io/markdown@0.0.0-20240306144322-0bf8f97ee8ef",
+      "name": "rsc.io/markdown",
+      "purl": "pkg:golang/rsc.io/markdown@0.0.0-20240306144322-0bf8f97ee8ef",
+      "version": "0.0.0-20240306144322-0bf8f97ee8ef",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "src/cmd/go.mod"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:github/golang/go@30719fe26f57",
+      "dependsOn": [
+        "pkg:golang/github.com/google/pprof@0.0.0-20260507013755-92041b743c96",
+        "pkg:golang/github.com/mmcloughlin/avo@0.6.0",
+        "pkg:golang/golang.org/x/arch@0.27.1-0.20260521044007-9c1a596a2c97",
+        "pkg:golang/golang.org/x/build@0.0.0-20260522210304-d55d0041b921",
+        "pkg:golang/golang.org/x/crypto@0.52.1-0.20260526024921-9beb694f9766",
+        "pkg:golang/golang.org/x/mod@0.36.1-0.20260520130633-087f6515dd3b",
+        "pkg:golang/golang.org/x/net@0.55.1-0.20260526154343-657eb1317b5d",
+        "pkg:golang/golang.org/x/sync@0.20.0",
+        "pkg:golang/golang.org/x/sys@0.45.0",
+        "pkg:golang/golang.org/x/telemetry@0.0.0-20260519152614-eab6ae52b5e2",
+        "pkg:golang/golang.org/x/term@0.43.0",
+        "pkg:golang/golang.org/x/tools@0.45.1-0.20260708165844-7044391f8d9f",
+        "pkg:golang/gopkg.in/yaml.v3@3.0.1"
+      ]
+    }
+  ]
+}

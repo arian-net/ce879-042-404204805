@@ -1,0 +1,6848 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:2e718f5e-2606-4927-be2b-a3ec1acda51e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-11T14:07:17Z",
+    "tools": [
+      {
+        "vendor": "sca",
+        "name": "supply-chain-analyzer",
+        "version": "1.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "pkg:github/fastapi/fastapi@7cb06f360dd4",
+      "name": "fastapi/fastapi",
+      "version": "7cb06f360dd4",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/fastapi/fastapi"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/a2wsgi@1.10.10",
+      "name": "a2wsgi",
+      "purl": "pkg:pypi/a2wsgi@1.10.10",
+      "version": "1.10.10",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/annotated-doc@0.0.4",
+      "name": "annotated-doc",
+      "purl": "pkg:pypi/annotated-doc@0.0.4",
+      "version": "0.0.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/anyio@4.12.1",
+      "name": "anyio",
+      "purl": "pkg:pypi/anyio@4.12.1",
+      "version": "4.12.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/black@26.5.1",
+      "name": "black",
+      "purl": "pkg:pypi/black@26.5.1",
+      "version": "26.5.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/cairosvg@2.9.0",
+      "name": "cairosvg",
+      "purl": "pkg:pypi/cairosvg@2.9.0",
+      "version": "2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/coverage@7.13.3",
+      "name": "coverage",
+      "purl": "pkg:pypi/coverage@7.13.3",
+      "version": "7.13.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/dirty-equals@0.11",
+      "name": "dirty-equals",
+      "purl": "pkg:pypi/dirty-equals@0.11",
+      "version": "0.11",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/email-validator@2.3.0",
+      "name": "email-validator",
+      "purl": "pkg:pypi/email-validator@2.3.0",
+      "version": "2.3.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unlicense"
+          }
+        }
+      ],
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "optional"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/fastapi-cli@0.0.20",
+      "name": "fastapi-cli",
+      "purl": "pkg:pypi/fastapi-cli@0.0.20",
+      "version": "0.0.20",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "optional"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/fastar@0.11.0",
+      "name": "fastar",
+      "purl": "pkg:pypi/fastar@0.11.0",
+      "version": "0.11.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "optional"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/flask@3.1.3",
+      "name": "flask",
+      "purl": "pkg:pypi/flask@3.1.3",
+      "version": "3.1.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/gitpython@3.1.50",
+      "name": "gitpython",
+      "purl": "pkg:pypi/gitpython@3.1.50",
+      "version": "3.1.50",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/griffe-typingdoc@0.3.1",
+      "name": "griffe-typingdoc",
+      "purl": "pkg:pypi/griffe-typingdoc@0.3.1",
+      "version": "0.3.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/griffe-warnings-deprecated@1.1.1",
+      "name": "griffe-warnings-deprecated",
+      "purl": "pkg:pypi/griffe-warnings-deprecated@1.1.1",
+      "version": "1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpx@0.28.1",
+      "name": "httpx",
+      "purl": "pkg:pypi/httpx@0.28.1",
+      "version": "0.28.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "optional"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpx2@2.5.0",
+      "name": "httpx2",
+      "purl": "pkg:pypi/httpx2@2.5.0",
+      "version": "2.5.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/inline-snapshot@0.34.2",
+      "name": "inline-snapshot",
+      "purl": "pkg:pypi/inline-snapshot@0.34.2",
+      "version": "0.34.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/itsdangerous@2.2.0",
+      "name": "itsdangerous",
+      "purl": "pkg:pypi/itsdangerous@2.2.0",
+      "version": "2.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "optional"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jieba@0.42.1",
+      "name": "jieba",
+      "purl": "pkg:pypi/jieba@0.42.1",
+      "version": "0.42.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jinja2@3.1.6",
+      "name": "jinja2",
+      "purl": "pkg:pypi/jinja2@3.1.6",
+      "version": "3.1.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "optional"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/markdown-include-variants@0.0.8",
+      "name": "markdown-include-variants",
+      "purl": "pkg:pypi/markdown-include-variants@0.0.8",
+      "version": "0.0.8",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mdx-include@1.4.2",
+      "name": "mdx-include",
+      "purl": "pkg:pypi/mdx-include@1.4.2",
+      "version": "1.4.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mkdocstrings@1.0.4",
+      "name": "mkdocstrings",
+      "purl": "pkg:pypi/mkdocstrings@1.0.4",
+      "version": "1.0.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mypy@2.1.0",
+      "name": "mypy",
+      "purl": "pkg:pypi/mypy@2.1.0",
+      "version": "2.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pdm-backend@2.4.9",
+      "name": "pdm-backend",
+      "purl": "pkg:pypi/pdm-backend@2.4.9",
+      "version": "2.4.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "build"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pillow@12.2.0",
+      "name": "pillow",
+      "purl": "pkg:pypi/pillow@12.2.0",
+      "version": "12.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT-CMU"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/playwright@1.61.0",
+      "name": "playwright",
+      "purl": "pkg:pypi/playwright@1.61.0",
+      "version": "1.61.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/prek@0.4.5",
+      "name": "prek",
+      "purl": "pkg:pypi/prek@0.4.5",
+      "version": "0.4.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pwdlib@0.3.0",
+      "name": "pwdlib",
+      "purl": "pkg:pypi/pwdlib@0.3.0",
+      "version": "0.3.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydantic@2.13.4",
+      "name": "pydantic",
+      "purl": "pkg:pypi/pydantic@2.13.4",
+      "version": "2.13.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydantic-ai@2.1.0",
+      "name": "pydantic-ai",
+      "purl": "pkg:pypi/pydantic-ai@2.1.0",
+      "version": "2.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydantic-extra-types@2.11.0",
+      "name": "pydantic-extra-types",
+      "purl": "pkg:pypi/pydantic-extra-types@2.11.0",
+      "version": "2.11.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "optional"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydantic-settings@2.14.2",
+      "name": "pydantic-settings",
+      "purl": "pkg:pypi/pydantic-settings@2.14.2",
+      "version": "2.14.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "optional"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pygithub@2.9.1",
+      "name": "pygithub",
+      "purl": "pkg:pypi/pygithub@2.9.1",
+      "version": "2.9.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Library or Lesser General Public License (LGPL)"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyjwt@2.13.0",
+      "name": "pyjwt",
+      "purl": "pkg:pypi/pyjwt@2.13.0",
+      "version": "2.13.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest@9.1.1",
+      "name": "pytest",
+      "purl": "pkg:pypi/pytest@9.1.1",
+      "version": "9.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest-codspeed@5.0.3",
+      "name": "pytest-codspeed",
+      "purl": "pkg:pypi/pytest-codspeed@5.0.3",
+      "version": "5.0.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest-cov@7.1.0",
+      "name": "pytest-cov",
+      "purl": "pkg:pypi/pytest-cov@7.1.0",
+      "version": "7.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest-sugar@1.1.1",
+      "name": "pytest-sugar",
+      "purl": "pkg:pypi/pytest-sugar@1.1.1",
+      "version": "1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest-timeout@2.4.0",
+      "name": "pytest-timeout",
+      "purl": "pkg:pypi/pytest-timeout@2.4.0",
+      "version": "2.4.0",
+      "licenses": [
+        {
+          "expression": "DFSG approved OR MIT"
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest-xdist@3.8.0",
+      "name": "pytest-xdist",
+      "purl": "pkg:pypi/pytest-xdist@3.8.0",
+      "version": "3.8.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-multipart@0.0.32",
+      "name": "python-multipart",
+      "purl": "pkg:pypi/python-multipart@0.0.32",
+      "version": "0.0.32",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "optional"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-slugify@8.0.4",
+      "name": "python-slugify",
+      "purl": "pkg:pypi/python-slugify@8.0.4",
+      "version": "8.0.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+      "name": "pyyaml",
+      "purl": "pkg:pypi/pyyaml@6.0.3",
+      "version": "6.0.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "optional"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/ruff@0.15.20",
+      "name": "ruff",
+      "purl": "pkg:pypi/ruff@0.15.20",
+      "version": "0.15.20",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/smokeshow@0.5.0",
+      "name": "smokeshow",
+      "purl": "pkg:pypi/smokeshow@0.5.0",
+      "version": "0.5.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/sqlmodel@0.0.39",
+      "name": "sqlmodel",
+      "purl": "pkg:pypi/sqlmodel@0.0.39",
+      "version": "0.0.39",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/starlette@1.3.1",
+      "name": "starlette",
+      "purl": "pkg:pypi/starlette@1.3.1",
+      "version": "1.3.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/strawberry-graphql@0.320.0",
+      "name": "strawberry-graphql",
+      "purl": "pkg:pypi/strawberry-graphql@0.320.0",
+      "version": "0.320.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/ty@0.0.55",
+      "name": "ty",
+      "purl": "pkg:pypi/ty@0.0.55",
+      "version": "0.0.55",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/typer@0.26.8",
+      "name": "typer",
+      "purl": "pkg:pypi/typer@0.26.8",
+      "version": "0.26.8",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/typing-extensions@4.15.0",
+      "name": "typing-extensions",
+      "purl": "pkg:pypi/typing-extensions@4.15.0",
+      "version": "4.15.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "PSF-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/typing-inspection@0.4.2",
+      "name": "typing-inspection",
+      "purl": "pkg:pypi/typing-inspection@0.4.2",
+      "version": "0.4.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/uvicorn@0.40.0",
+      "name": "uvicorn",
+      "purl": "pkg:pypi/uvicorn@0.40.0",
+      "version": "0.40.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "optional"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/zensical@0.0.46",
+      "name": "zensical",
+      "purl": "pkg:pypi/zensical@0.0.46",
+      "version": "0.0.46",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/zizmor@1.26.1",
+      "name": "zizmor",
+      "purl": "pkg:pypi/zizmor@1.26.1",
+      "version": "1.26.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "true"
+        },
+        {
+          "name": "sca:scope",
+          "value": "dev"
+        },
+        {
+          "name": "sca:source",
+          "value": "pyproject.toml, uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/aiofile@3.9.0",
+      "name": "aiofile",
+      "purl": "pkg:pypi/aiofile@3.9.0",
+      "version": "3.9.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/annotated-types@0.7.0",
+      "name": "annotated-types",
+      "purl": "pkg:pypi/annotated-types@0.7.0",
+      "version": "0.7.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/anthropic@0.109.0",
+      "name": "anthropic",
+      "purl": "pkg:pypi/anthropic@0.109.0",
+      "version": "0.109.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/argcomplete@3.6.3",
+      "name": "argcomplete",
+      "purl": "pkg:pypi/argcomplete@3.6.3",
+      "version": "3.6.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/argon2-cffi@25.1.0",
+      "name": "argon2-cffi",
+      "purl": "pkg:pypi/argon2-cffi@25.1.0",
+      "version": "25.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/argon2-cffi-bindings@25.1.0",
+      "name": "argon2-cffi-bindings",
+      "purl": "pkg:pypi/argon2-cffi-bindings@25.1.0",
+      "version": "25.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/ast-serialize@0.5.0",
+      "name": "ast-serialize",
+      "purl": "pkg:pypi/ast-serialize@0.5.0",
+      "version": "0.5.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/asttokens@3.0.1",
+      "name": "asttokens",
+      "purl": "pkg:pypi/asttokens@3.0.1",
+      "version": "3.0.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache 2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/attrs@25.4.0",
+      "name": "attrs",
+      "purl": "pkg:pypi/attrs@25.4.0",
+      "version": "25.4.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/authlib@1.7.2",
+      "name": "authlib",
+      "purl": "pkg:pypi/authlib@1.7.2",
+      "version": "1.7.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/backports-tarfile@1.2.0",
+      "name": "backports-tarfile",
+      "purl": "pkg:pypi/backports-tarfile@1.2.0",
+      "version": "1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/beartype@0.22.9",
+      "name": "beartype",
+      "purl": "pkg:pypi/beartype@0.22.9",
+      "version": "0.22.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/blinker@1.9.0",
+      "name": "blinker",
+      "purl": "pkg:pypi/blinker@1.9.0",
+      "version": "1.9.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/cachetools@7.0.0",
+      "name": "cachetools",
+      "purl": "pkg:pypi/cachetools@7.0.0",
+      "version": "7.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/caio@0.9.25",
+      "name": "caio",
+      "purl": "pkg:pypi/caio@0.9.25",
+      "version": "0.9.25",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/cairocffi@1.7.1",
+      "name": "cairocffi",
+      "purl": "pkg:pypi/cairocffi@1.7.1",
+      "version": "1.7.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/certifi@2026.1.4",
+      "name": "certifi",
+      "purl": "pkg:pypi/certifi@2026.1.4",
+      "version": "2026.1.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MPL-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/cffi@2.0.0",
+      "name": "cffi",
+      "purl": "pkg:pypi/cffi@2.0.0",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT-0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/charset-normalizer@3.4.4",
+      "name": "charset-normalizer",
+      "purl": "pkg:pypi/charset-normalizer@3.4.4",
+      "version": "3.4.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/click@8.2.1",
+      "name": "click",
+      "purl": "pkg:pypi/click@8.2.1",
+      "version": "8.2.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/colorama@0.4.6",
+      "name": "colorama",
+      "purl": "pkg:pypi/colorama@0.4.6",
+      "version": "0.4.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/cross-web@0.7.0",
+      "name": "cross-web",
+      "purl": "pkg:pypi/cross-web@0.7.0",
+      "version": "0.7.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/cryptography@48.0.1",
+      "name": "cryptography",
+      "purl": "pkg:pypi/cryptography@48.0.1",
+      "version": "48.0.1",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-3-Clause"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/cssselect2@0.8.0",
+      "name": "cssselect2",
+      "purl": "pkg:pypi/cssselect2@0.8.0",
+      "version": "0.8.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/cyclic@1.0.0",
+      "name": "cyclic",
+      "purl": "pkg:pypi/cyclic@1.0.0",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/deepmerge@2.0",
+      "name": "deepmerge",
+      "purl": "pkg:pypi/deepmerge@2.0",
+      "version": "2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/defusedxml@0.7.1",
+      "name": "defusedxml",
+      "purl": "pkg:pypi/defusedxml@0.7.1",
+      "version": "0.7.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "PSF-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/distro@1.9.0",
+      "name": "distro",
+      "purl": "pkg:pypi/distro@1.9.0",
+      "version": "1.9.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/dnspython@2.8.0",
+      "name": "dnspython",
+      "purl": "pkg:pypi/dnspython@2.8.0",
+      "version": "2.8.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/docstring-parser@0.17.0",
+      "name": "docstring-parser",
+      "purl": "pkg:pypi/docstring-parser@0.17.0",
+      "version": "0.17.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/exceptiongroup@1.3.1",
+      "name": "exceptiongroup",
+      "purl": "pkg:pypi/exceptiongroup@1.3.1",
+      "version": "1.3.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/execnet@2.1.2",
+      "name": "execnet",
+      "purl": "pkg:pypi/execnet@2.1.2",
+      "version": "2.1.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/executing@2.2.1",
+      "name": "executing",
+      "purl": "pkg:pypi/executing@2.2.1",
+      "version": "2.2.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/fastapi-cloud-cli@0.11.0",
+      "name": "fastapi-cloud-cli",
+      "purl": "pkg:pypi/fastapi-cloud-cli@0.11.0",
+      "version": "0.11.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/fastmcp-slim@3.3.1",
+      "name": "fastmcp-slim",
+      "purl": "pkg:pypi/fastmcp-slim@3.3.1",
+      "version": "3.3.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/genai-prices@0.0.62",
+      "name": "genai-prices",
+      "purl": "pkg:pypi/genai-prices@0.0.62",
+      "version": "0.0.62",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/ghp-import@2.1.0",
+      "name": "ghp-import",
+      "purl": "pkg:pypi/ghp-import@2.1.0",
+      "version": "2.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/gitdb@4.0.12",
+      "name": "gitdb",
+      "purl": "pkg:pypi/gitdb@4.0.12",
+      "version": "4.0.12",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/google-auth@2.49.2",
+      "name": "google-auth",
+      "purl": "pkg:pypi/google-auth@2.49.2",
+      "version": "2.49.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/google-genai@1.73.1",
+      "name": "google-genai",
+      "purl": "pkg:pypi/google-genai@1.73.1",
+      "version": "1.73.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/googleapis-common-protos@1.72.0",
+      "name": "googleapis-common-protos",
+      "purl": "pkg:pypi/googleapis-common-protos@1.72.0",
+      "version": "1.72.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/graphql-core@3.2.7",
+      "name": "graphql-core",
+      "purl": "pkg:pypi/graphql-core@3.2.7",
+      "version": "3.2.7",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/greenlet@3.3.1",
+      "name": "greenlet",
+      "purl": "pkg:pypi/greenlet@3.3.1",
+      "version": "3.3.1",
+      "licenses": [
+        {
+          "expression": "MIT AND PSF-2.0"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/griffelib@2.0.0",
+      "name": "griffelib",
+      "purl": "pkg:pypi/griffelib@2.0.0",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/h11@0.16.0",
+      "name": "h11",
+      "purl": "pkg:pypi/h11@0.16.0",
+      "version": "0.16.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpcore@1.0.9",
+      "name": "httpcore",
+      "purl": "pkg:pypi/httpcore@1.0.9",
+      "version": "1.0.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpcore2@2.5.0",
+      "name": "httpcore2",
+      "purl": "pkg:pypi/httpcore2@2.5.0",
+      "version": "2.5.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/httptools@0.7.1",
+      "name": "httptools",
+      "purl": "pkg:pypi/httptools@0.7.1",
+      "version": "0.7.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpx-sse@0.4.3",
+      "name": "httpx-sse",
+      "purl": "pkg:pypi/httpx-sse@0.4.3",
+      "version": "0.4.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/idna@3.18",
+      "name": "idna",
+      "purl": "pkg:pypi/idna@3.18",
+      "version": "3.18",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/importlib-metadata@8.7.1",
+      "name": "importlib-metadata",
+      "purl": "pkg:pypi/importlib-metadata@8.7.1",
+      "version": "8.7.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/iniconfig@2.3.0",
+      "name": "iniconfig",
+      "purl": "pkg:pypi/iniconfig@2.3.0",
+      "version": "2.3.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jaraco-classes@3.4.0",
+      "name": "jaraco-classes",
+      "purl": "pkg:pypi/jaraco-classes@3.4.0",
+      "version": "3.4.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jaraco-context@6.1.0",
+      "name": "jaraco-context",
+      "purl": "pkg:pypi/jaraco-context@6.1.0",
+      "version": "6.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jaraco-functools@4.4.0",
+      "name": "jaraco-functools",
+      "purl": "pkg:pypi/jaraco-functools@4.4.0",
+      "version": "4.4.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jeepney@0.9.0",
+      "name": "jeepney",
+      "purl": "pkg:pypi/jeepney@0.9.0",
+      "version": "0.9.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jiter@0.13.0",
+      "name": "jiter",
+      "purl": "pkg:pypi/jiter@0.13.0",
+      "version": "0.13.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/joserfc@1.6.8",
+      "name": "joserfc",
+      "purl": "pkg:pypi/joserfc@1.6.8",
+      "version": "1.6.8",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jsonschema@4.26.0",
+      "name": "jsonschema",
+      "purl": "pkg:pypi/jsonschema@4.26.0",
+      "version": "4.26.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jsonschema-specifications@2025.9.1",
+      "name": "jsonschema-specifications",
+      "purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+      "version": "2025.9.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/keyring@25.7.0",
+      "name": "keyring",
+      "purl": "pkg:pypi/keyring@25.7.0",
+      "version": "25.7.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/librt@0.11.0",
+      "name": "librt",
+      "purl": "pkg:pypi/librt@0.11.0",
+      "version": "0.11.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/logfire@4.22.0",
+      "name": "logfire",
+      "purl": "pkg:pypi/logfire@4.22.0",
+      "version": "4.22.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/logfire-api@4.22.0",
+      "name": "logfire-api",
+      "purl": "pkg:pypi/logfire-api@4.22.0",
+      "version": "4.22.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/markdown@3.10.1",
+      "name": "markdown",
+      "purl": "pkg:pypi/markdown@3.10.1",
+      "version": "3.10.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/markdown-it-py@4.0.0",
+      "name": "markdown-it-py",
+      "purl": "pkg:pypi/markdown-it-py@4.0.0",
+      "version": "4.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/markupsafe@3.0.3",
+      "name": "markupsafe",
+      "purl": "pkg:pypi/markupsafe@3.0.3",
+      "version": "3.0.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mcp@1.26.0",
+      "name": "mcp",
+      "purl": "pkg:pypi/mcp@1.26.0",
+      "version": "1.26.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mdurl@0.1.2",
+      "name": "mdurl",
+      "purl": "pkg:pypi/mdurl@0.1.2",
+      "version": "0.1.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mergedeep@1.3.4",
+      "name": "mergedeep",
+      "purl": "pkg:pypi/mergedeep@1.3.4",
+      "version": "1.3.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mkdocs@1.6.1",
+      "name": "mkdocs",
+      "purl": "pkg:pypi/mkdocs@1.6.1",
+      "version": "1.6.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mkdocs-autorefs@1.4.3",
+      "name": "mkdocs-autorefs",
+      "purl": "pkg:pypi/mkdocs-autorefs@1.4.3",
+      "version": "1.4.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mkdocs-get-deps@0.2.0",
+      "name": "mkdocs-get-deps",
+      "purl": "pkg:pypi/mkdocs-get-deps@0.2.0",
+      "version": "0.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mkdocstrings-python@2.0.3",
+      "name": "mkdocstrings-python",
+      "purl": "pkg:pypi/mkdocstrings-python@2.0.3",
+      "version": "2.0.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/more-itertools@10.8.0",
+      "name": "more-itertools",
+      "purl": "pkg:pypi/more-itertools@10.8.0",
+      "version": "10.8.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mypy-extensions@1.1.0",
+      "name": "mypy-extensions",
+      "purl": "pkg:pypi/mypy-extensions@1.1.0",
+      "version": "1.1.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/openai@2.32.0",
+      "name": "openai",
+      "purl": "pkg:pypi/openai@2.32.0",
+      "version": "2.32.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/opentelemetry-api@1.39.1",
+      "name": "opentelemetry-api",
+      "purl": "pkg:pypi/opentelemetry-api@1.39.1",
+      "version": "1.39.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/opentelemetry-exporter-otlp-proto-common@1.39.1",
+      "name": "opentelemetry-exporter-otlp-proto-common",
+      "purl": "pkg:pypi/opentelemetry-exporter-otlp-proto-common@1.39.1",
+      "version": "1.39.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/opentelemetry-exporter-otlp-proto-http@1.39.1",
+      "name": "opentelemetry-exporter-otlp-proto-http",
+      "purl": "pkg:pypi/opentelemetry-exporter-otlp-proto-http@1.39.1",
+      "version": "1.39.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/opentelemetry-instrumentation@0.60b1",
+      "name": "opentelemetry-instrumentation",
+      "purl": "pkg:pypi/opentelemetry-instrumentation@0.60b1",
+      "version": "0.60b1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/opentelemetry-instrumentation-httpx@0.60b1",
+      "name": "opentelemetry-instrumentation-httpx",
+      "purl": "pkg:pypi/opentelemetry-instrumentation-httpx@0.60b1",
+      "version": "0.60b1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/opentelemetry-proto@1.39.1",
+      "name": "opentelemetry-proto",
+      "purl": "pkg:pypi/opentelemetry-proto@1.39.1",
+      "version": "1.39.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/opentelemetry-sdk@1.39.1",
+      "name": "opentelemetry-sdk",
+      "purl": "pkg:pypi/opentelemetry-sdk@1.39.1",
+      "version": "1.39.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/opentelemetry-semantic-conventions@0.60b1",
+      "name": "opentelemetry-semantic-conventions",
+      "purl": "pkg:pypi/opentelemetry-semantic-conventions@0.60b1",
+      "version": "0.60b1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/opentelemetry-util-http@0.60b1",
+      "name": "opentelemetry-util-http",
+      "purl": "pkg:pypi/opentelemetry-util-http@0.60b1",
+      "version": "0.60b1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/outcome@1.3.0.post0",
+      "name": "outcome",
+      "purl": "pkg:pypi/outcome@1.3.0.post0",
+      "version": "1.3.0.post0",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR MIT"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/packaging@25.0",
+      "name": "packaging",
+      "purl": "pkg:pypi/packaging@25.0",
+      "version": "25.0",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-2-Clause"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pathspec@1.0.4",
+      "name": "pathspec",
+      "purl": "pkg:pypi/pathspec@1.0.4",
+      "version": "1.0.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MPL-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/platformdirs@4.5.1",
+      "name": "platformdirs",
+      "purl": "pkg:pypi/platformdirs@4.5.1",
+      "version": "4.5.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pluggy@1.6.0",
+      "name": "pluggy",
+      "purl": "pkg:pypi/pluggy@1.6.0",
+      "version": "1.6.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/prompt-toolkit@3.0.52",
+      "name": "prompt-toolkit",
+      "purl": "pkg:pypi/prompt-toolkit@3.0.52",
+      "version": "3.0.52",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/protobuf@6.33.5",
+      "name": "protobuf",
+      "purl": "pkg:pypi/protobuf@6.33.5",
+      "version": "6.33.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "3-Clause BSD License"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/psutil@7.2.2",
+      "name": "psutil",
+      "purl": "pkg:pypi/psutil@7.2.2",
+      "version": "7.2.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/py-key-value-aio@0.4.4",
+      "name": "py-key-value-aio",
+      "purl": "pkg:pypi/py-key-value-aio@0.4.4",
+      "version": "0.4.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyasn1@0.6.3",
+      "name": "pyasn1",
+      "purl": "pkg:pypi/pyasn1@0.6.3",
+      "version": "0.6.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyasn1-modules@0.4.2",
+      "name": "pyasn1-modules",
+      "purl": "pkg:pypi/pyasn1-modules@0.4.2",
+      "version": "0.4.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycparser@3.0",
+      "name": "pycparser",
+      "purl": "pkg:pypi/pycparser@3.0",
+      "version": "3.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydantic-ai-slim@2.1.0",
+      "name": "pydantic-ai-slim",
+      "purl": "pkg:pypi/pydantic-ai-slim@2.1.0",
+      "version": "2.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydantic-core@2.46.4",
+      "name": "pydantic-core",
+      "purl": "pkg:pypi/pydantic-core@2.46.4",
+      "version": "2.46.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydantic-evals@2.1.0",
+      "name": "pydantic-evals",
+      "purl": "pkg:pypi/pydantic-evals@2.1.0",
+      "version": "2.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydantic-graph@2.1.0",
+      "name": "pydantic-graph",
+      "purl": "pkg:pypi/pydantic-graph@2.1.0",
+      "version": "2.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyee@13.0.0",
+      "name": "pyee",
+      "purl": "pkg:pypi/pyee@13.0.0",
+      "version": "13.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pygments@2.20.0",
+      "name": "pygments",
+      "purl": "pkg:pypi/pygments@2.20.0",
+      "version": "2.20.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pymdown-extensions@10.21.3",
+      "name": "pymdown-extensions",
+      "purl": "pkg:pypi/pymdown-extensions@10.21.3",
+      "version": "10.21.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pynacl@1.6.2",
+      "name": "pynacl",
+      "purl": "pkg:pypi/pynacl@1.6.2",
+      "version": "1.6.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyperclip@1.11.0",
+      "name": "pyperclip",
+      "purl": "pkg:pypi/pyperclip@1.11.0",
+      "version": "1.11.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "name": "python-dateutil",
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "version": "2.9.0.post0",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-3-Clause"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-dotenv@1.2.2",
+      "name": "python-dotenv",
+      "purl": "pkg:pypi/python-dotenv@1.2.2",
+      "version": "1.2.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytokens@0.4.1",
+      "name": "pytokens",
+      "purl": "pkg:pypi/pytokens@0.4.1",
+      "version": "0.4.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pywin32@311",
+      "name": "pywin32",
+      "purl": "pkg:pypi/pywin32@311",
+      "version": "311",
+      "licenses": [
+        {
+          "license": {
+            "name": "PSF-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pywin32-ctypes@0.2.3",
+      "name": "pywin32-ctypes",
+      "purl": "pkg:pypi/pywin32-ctypes@0.2.3",
+      "version": "0.2.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyyaml-env-tag@1.1",
+      "name": "pyyaml-env-tag",
+      "purl": "pkg:pypi/pyyaml-env-tag@1.1",
+      "version": "1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/rcslice@1.1.0",
+      "name": "rcslice",
+      "purl": "pkg:pypi/rcslice@1.1.0",
+      "version": "1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/referencing@0.36.2",
+      "name": "referencing",
+      "purl": "pkg:pypi/referencing@0.36.2",
+      "version": "0.36.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/regex@2026.1.15",
+      "name": "regex",
+      "purl": "pkg:pypi/regex@2026.1.15",
+      "version": "2026.1.15",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 AND CNRI-Python"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests@2.33.0",
+      "name": "requests",
+      "purl": "pkg:pypi/requests@2.33.0",
+      "version": "2.33.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/rich@14.3.2",
+      "name": "rich",
+      "purl": "pkg:pypi/rich@14.3.2",
+      "version": "14.3.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/rich-toolkit@0.18.1",
+      "name": "rich-toolkit",
+      "purl": "pkg:pypi/rich-toolkit@0.18.1",
+      "version": "0.18.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/rignore@0.7.6",
+      "name": "rignore",
+      "purl": "pkg:pypi/rignore@0.7.6",
+      "version": "0.7.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/rpds-py@0.30.0",
+      "name": "rpds-py",
+      "purl": "pkg:pypi/rpds-py@0.30.0",
+      "version": "0.30.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/secretstorage@3.5.0",
+      "name": "secretstorage",
+      "purl": "pkg:pypi/secretstorage@3.5.0",
+      "version": "3.5.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/sentry-sdk@2.52.0",
+      "name": "sentry-sdk",
+      "purl": "pkg:pypi/sentry-sdk@2.52.0",
+      "version": "2.52.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/shellingham@1.5.4",
+      "name": "shellingham",
+      "purl": "pkg:pypi/shellingham@1.5.4",
+      "version": "1.5.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/six@1.17.0",
+      "name": "six",
+      "purl": "pkg:pypi/six@1.17.0",
+      "version": "1.17.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/smmap@5.0.2",
+      "name": "smmap",
+      "purl": "pkg:pypi/smmap@5.0.2",
+      "version": "5.0.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/sniffio@1.3.1",
+      "name": "sniffio",
+      "purl": "pkg:pypi/sniffio@1.3.1",
+      "version": "1.3.1",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR MIT"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/sortedcontainers@2.4.0",
+      "name": "sortedcontainers",
+      "purl": "pkg:pypi/sortedcontainers@2.4.0",
+      "version": "2.4.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/sqlalchemy@2.0.46",
+      "name": "sqlalchemy",
+      "purl": "pkg:pypi/sqlalchemy@2.0.46",
+      "version": "2.0.46",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/sse-starlette@3.2.0",
+      "name": "sse-starlette",
+      "purl": "pkg:pypi/sse-starlette@3.2.0",
+      "version": "3.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/tenacity@9.1.3",
+      "name": "tenacity",
+      "purl": "pkg:pypi/tenacity@9.1.3",
+      "version": "9.1.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/termcolor@3.3.0",
+      "name": "termcolor",
+      "purl": "pkg:pypi/termcolor@3.3.0",
+      "version": "3.3.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/text-unidecode@1.3",
+      "name": "text-unidecode",
+      "purl": "pkg:pypi/text-unidecode@1.3",
+      "version": "1.3",
+      "licenses": [
+        {
+          "expression": "Artistic License OR GNU General Public License (GPL) OR GPL-2.0-or-later"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/tiktoken@0.12.0",
+      "name": "tiktoken",
+      "purl": "pkg:pypi/tiktoken@0.12.0",
+      "version": "0.12.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/tinycss2@1.5.1",
+      "name": "tinycss2",
+      "purl": "pkg:pypi/tinycss2@1.5.1",
+      "version": "1.5.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/tomli@2.4.0",
+      "name": "tomli",
+      "purl": "pkg:pypi/tomli@2.4.0",
+      "version": "2.4.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/tqdm@4.67.3",
+      "name": "tqdm",
+      "purl": "pkg:pypi/tqdm@4.67.3",
+      "version": "4.67.3",
+      "licenses": [
+        {
+          "expression": "MPL-2.0 AND MIT"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/trio@0.32.0",
+      "name": "trio",
+      "purl": "pkg:pypi/trio@0.32.0",
+      "version": "0.32.0",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/truststore@0.10.4",
+      "name": "truststore",
+      "purl": "pkg:pypi/truststore@0.10.4",
+      "version": "0.10.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/urllib3@2.7.0",
+      "name": "urllib3",
+      "purl": "pkg:pypi/urllib3@2.7.0",
+      "version": "2.7.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/uvloop@0.22.1",
+      "name": "uvloop",
+      "purl": "pkg:pypi/uvloop@0.22.1",
+      "version": "0.22.1",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR MIT"
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/watchdog@6.0.0",
+      "name": "watchdog",
+      "purl": "pkg:pypi/watchdog@6.0.0",
+      "version": "6.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/watchfiles@1.1.1",
+      "name": "watchfiles",
+      "purl": "pkg:pypi/watchfiles@1.1.1",
+      "version": "1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/wcwidth@0.5.3",
+      "name": "wcwidth",
+      "purl": "pkg:pypi/wcwidth@0.5.3",
+      "version": "0.5.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/webencodings@0.5.1",
+      "name": "webencodings",
+      "purl": "pkg:pypi/webencodings@0.5.1",
+      "version": "0.5.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/websockets@15.0.1",
+      "name": "websockets",
+      "purl": "pkg:pypi/websockets@15.0.1",
+      "version": "15.0.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/werkzeug@3.1.6",
+      "name": "werkzeug",
+      "purl": "pkg:pypi/werkzeug@3.1.6",
+      "version": "3.1.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/wrapt@1.17.3",
+      "name": "wrapt",
+      "purl": "pkg:pypi/wrapt@1.17.3",
+      "version": "1.17.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/zipp@3.23.0",
+      "name": "zipp",
+      "purl": "pkg:pypi/zipp@3.23.0",
+      "version": "3.23.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "scope": "required",
+      "properties": [
+        {
+          "name": "sca:direct",
+          "value": "false"
+        },
+        {
+          "name": "sca:scope",
+          "value": "runtime"
+        },
+        {
+          "name": "sca:source",
+          "value": "uv.lock"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:github/fastapi/fastapi@7cb06f360dd4",
+      "dependsOn": [
+        "pkg:pypi/a2wsgi@1.10.10",
+        "pkg:pypi/annotated-doc@0.0.4",
+        "pkg:pypi/anyio@4.12.1",
+        "pkg:pypi/black@26.5.1",
+        "pkg:pypi/cairosvg@2.9.0",
+        "pkg:pypi/coverage@7.13.3",
+        "pkg:pypi/dirty-equals@0.11",
+        "pkg:pypi/email-validator@2.3.0",
+        "pkg:pypi/fastapi-cli@0.0.20",
+        "pkg:pypi/fastar@0.11.0",
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/gitpython@3.1.50",
+        "pkg:pypi/griffe-typingdoc@0.3.1",
+        "pkg:pypi/griffe-warnings-deprecated@1.1.1",
+        "pkg:pypi/httpx2@2.5.0",
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/inline-snapshot@0.34.2",
+        "pkg:pypi/itsdangerous@2.2.0",
+        "pkg:pypi/jieba@0.42.1",
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/markdown-include-variants@0.0.8",
+        "pkg:pypi/mdx-include@1.4.2",
+        "pkg:pypi/mkdocstrings@1.0.4",
+        "pkg:pypi/mypy@2.1.0",
+        "pkg:pypi/pdm-backend@2.4.9",
+        "pkg:pypi/pillow@12.2.0",
+        "pkg:pypi/playwright@1.61.0",
+        "pkg:pypi/prek@0.4.5",
+        "pkg:pypi/pwdlib@0.3.0",
+        "pkg:pypi/pydantic-ai@2.1.0",
+        "pkg:pypi/pydantic-extra-types@2.11.0",
+        "pkg:pypi/pydantic-settings@2.14.2",
+        "pkg:pypi/pydantic@2.13.4",
+        "pkg:pypi/pygithub@2.9.1",
+        "pkg:pypi/pyjwt@2.13.0",
+        "pkg:pypi/pytest-codspeed@5.0.3",
+        "pkg:pypi/pytest-cov@7.1.0",
+        "pkg:pypi/pytest-sugar@1.1.1",
+        "pkg:pypi/pytest-timeout@2.4.0",
+        "pkg:pypi/pytest-xdist@3.8.0",
+        "pkg:pypi/pytest@9.1.1",
+        "pkg:pypi/python-multipart@0.0.32",
+        "pkg:pypi/python-slugify@8.0.4",
+        "pkg:pypi/pyyaml@6.0.3",
+        "pkg:pypi/ruff@0.15.20",
+        "pkg:pypi/smokeshow@0.5.0",
+        "pkg:pypi/sqlmodel@0.0.39",
+        "pkg:pypi/starlette@1.3.1",
+        "pkg:pypi/strawberry-graphql@0.320.0",
+        "pkg:pypi/ty@0.0.55",
+        "pkg:pypi/typer@0.26.8",
+        "pkg:pypi/typing-extensions@4.15.0",
+        "pkg:pypi/typing-inspection@0.4.2",
+        "pkg:pypi/uvicorn@0.40.0",
+        "pkg:pypi/zensical@0.0.46",
+        "pkg:pypi/zizmor@1.26.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/a2wsgi@1.10.10",
+      "dependsOn": [
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/anyio@4.12.1",
+      "dependsOn": [
+        "pkg:pypi/exceptiongroup@1.3.1",
+        "pkg:pypi/idna@3.18",
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/black@26.5.1",
+      "dependsOn": [
+        "pkg:pypi/click@8.2.1",
+        "pkg:pypi/mypy-extensions@1.1.0",
+        "pkg:pypi/packaging@25.0",
+        "pkg:pypi/pathspec@1.0.4",
+        "pkg:pypi/platformdirs@4.5.1",
+        "pkg:pypi/pytokens@0.4.1",
+        "pkg:pypi/tomli@2.4.0",
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cairosvg@2.9.0",
+      "dependsOn": [
+        "pkg:pypi/cairocffi@1.7.1",
+        "pkg:pypi/cssselect2@0.8.0",
+        "pkg:pypi/defusedxml@0.7.1",
+        "pkg:pypi/pillow@12.2.0",
+        "pkg:pypi/tinycss2@1.5.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/email-validator@2.3.0",
+      "dependsOn": [
+        "pkg:pypi/dnspython@2.8.0",
+        "pkg:pypi/idna@3.18"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/fastapi-cli@0.0.20",
+      "dependsOn": [
+        "pkg:pypi/rich-toolkit@0.18.1",
+        "pkg:pypi/tomli@2.4.0",
+        "pkg:pypi/typer@0.26.8",
+        "pkg:pypi/uvicorn@0.40.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/flask@3.1.3",
+      "dependsOn": [
+        "pkg:pypi/blinker@1.9.0",
+        "pkg:pypi/click@8.2.1",
+        "pkg:pypi/itsdangerous@2.2.0",
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/markupsafe@3.0.3",
+        "pkg:pypi/werkzeug@3.1.6"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/gitpython@3.1.50",
+      "dependsOn": [
+        "pkg:pypi/gitdb@4.0.12"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/griffe-typingdoc@0.3.1",
+      "dependsOn": [
+        "pkg:pypi/griffelib@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/griffe-warnings-deprecated@1.1.1",
+      "dependsOn": [
+        "pkg:pypi/griffelib@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/httpx@0.28.1",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.12.1",
+        "pkg:pypi/certifi@2026.1.4",
+        "pkg:pypi/httpcore@1.0.9",
+        "pkg:pypi/idna@3.18"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/httpx2@2.5.0",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.12.1",
+        "pkg:pypi/httpcore2@2.5.0",
+        "pkg:pypi/idna@3.18",
+        "pkg:pypi/truststore@0.10.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/inline-snapshot@0.34.2",
+      "dependsOn": [
+        "pkg:pypi/asttokens@3.0.1",
+        "pkg:pypi/executing@2.2.1",
+        "pkg:pypi/pytest@9.1.1",
+        "pkg:pypi/rich@14.3.2",
+        "pkg:pypi/tomli@2.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jinja2@3.1.6",
+      "dependsOn": [
+        "pkg:pypi/markupsafe@3.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/markdown-include-variants@0.0.8",
+      "dependsOn": [
+        "pkg:pypi/markdown@3.10.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mdx-include@1.4.2",
+      "dependsOn": [
+        "pkg:pypi/cyclic@1.0.0",
+        "pkg:pypi/markdown@3.10.1",
+        "pkg:pypi/rcslice@1.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mkdocstrings@1.0.4",
+      "dependsOn": [
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/markdown@3.10.1",
+        "pkg:pypi/markupsafe@3.0.3",
+        "pkg:pypi/mkdocs-autorefs@1.4.3",
+        "pkg:pypi/mkdocs@1.6.1",
+        "pkg:pypi/pymdown-extensions@10.21.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mypy@2.1.0",
+      "dependsOn": [
+        "pkg:pypi/ast-serialize@0.5.0",
+        "pkg:pypi/librt@0.11.0",
+        "pkg:pypi/mypy-extensions@1.1.0",
+        "pkg:pypi/pathspec@1.0.4",
+        "pkg:pypi/tomli@2.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/playwright@1.61.0",
+      "dependsOn": [
+        "pkg:pypi/greenlet@3.3.1",
+        "pkg:pypi/pyee@13.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pydantic@2.13.4",
+      "dependsOn": [
+        "pkg:pypi/annotated-types@0.7.0",
+        "pkg:pypi/pydantic-core@2.46.4",
+        "pkg:pypi/typing-inspection@0.4.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pydantic-ai@2.1.0",
+      "dependsOn": [
+        "pkg:pypi/pydantic-ai-slim@2.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pydantic-settings@2.14.2",
+      "dependsOn": [
+        "pkg:pypi/python-dotenv@1.2.2",
+        "pkg:pypi/typing-inspection@0.4.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pygithub@2.9.1",
+      "dependsOn": [
+        "pkg:pypi/pyjwt@2.13.0",
+        "pkg:pypi/pynacl@1.6.2",
+        "pkg:pypi/requests@2.33.0",
+        "pkg:pypi/urllib3@2.7.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pytest@9.1.1",
+      "dependsOn": [
+        "pkg:pypi/colorama@0.4.6",
+        "pkg:pypi/exceptiongroup@1.3.1",
+        "pkg:pypi/iniconfig@2.3.0",
+        "pkg:pypi/packaging@25.0",
+        "pkg:pypi/pluggy@1.6.0",
+        "pkg:pypi/pygments@2.20.0",
+        "pkg:pypi/tomli@2.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pytest-codspeed@5.0.3",
+      "dependsOn": [
+        "pkg:pypi/pytest@9.1.1",
+        "pkg:pypi/rich@14.3.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pytest-cov@7.1.0",
+      "dependsOn": [
+        "pkg:pypi/coverage@7.13.3",
+        "pkg:pypi/pluggy@1.6.0",
+        "pkg:pypi/pytest@9.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pytest-sugar@1.1.1",
+      "dependsOn": [
+        "pkg:pypi/pytest@9.1.1",
+        "pkg:pypi/termcolor@3.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pytest-timeout@2.4.0",
+      "dependsOn": [
+        "pkg:pypi/pytest@9.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pytest-xdist@3.8.0",
+      "dependsOn": [
+        "pkg:pypi/execnet@2.1.2",
+        "pkg:pypi/pytest@9.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/python-slugify@8.0.4",
+      "dependsOn": [
+        "pkg:pypi/text-unidecode@1.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/smokeshow@0.5.0",
+      "dependsOn": [
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/typer@0.26.8"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/sqlmodel@0.0.39",
+      "dependsOn": [
+        "pkg:pypi/sqlalchemy@2.0.46"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/strawberry-graphql@0.320.0",
+      "dependsOn": [
+        "pkg:pypi/cross-web@0.7.0",
+        "pkg:pypi/graphql-core@3.2.7",
+        "pkg:pypi/packaging@25.0",
+        "pkg:pypi/python-dateutil@2.9.0.post0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/typer@0.26.8",
+      "dependsOn": [
+        "pkg:pypi/annotated-doc@0.0.4",
+        "pkg:pypi/colorama@0.4.6",
+        "pkg:pypi/rich@14.3.2",
+        "pkg:pypi/shellingham@1.5.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/uvicorn@0.40.0",
+      "dependsOn": [
+        "pkg:pypi/click@8.2.1",
+        "pkg:pypi/h11@0.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/zensical@0.0.46",
+      "dependsOn": [
+        "pkg:pypi/click@8.2.1",
+        "pkg:pypi/deepmerge@2.0",
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/markdown@3.10.1",
+        "pkg:pypi/pygments@2.20.0",
+        "pkg:pypi/pymdown-extensions@10.21.3",
+        "pkg:pypi/pyyaml@6.0.3",
+        "pkg:pypi/tomli@2.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/aiofile@3.9.0",
+      "dependsOn": [
+        "pkg:pypi/caio@0.9.25"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/anthropic@0.109.0",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.12.1",
+        "pkg:pypi/distro@1.9.0",
+        "pkg:pypi/docstring-parser@0.17.0",
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/jiter@0.13.0",
+        "pkg:pypi/pydantic@2.13.4",
+        "pkg:pypi/sniffio@1.3.1",
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/argon2-cffi@25.1.0",
+      "dependsOn": [
+        "pkg:pypi/argon2-cffi-bindings@25.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/argon2-cffi-bindings@25.1.0",
+      "dependsOn": [
+        "pkg:pypi/cffi@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/authlib@1.7.2",
+      "dependsOn": [
+        "pkg:pypi/cryptography@48.0.1",
+        "pkg:pypi/joserfc@1.6.8"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cairocffi@1.7.1",
+      "dependsOn": [
+        "pkg:pypi/cffi@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cffi@2.0.0",
+      "dependsOn": [
+        "pkg:pypi/pycparser@3.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/click@8.2.1",
+      "dependsOn": [
+        "pkg:pypi/colorama@0.4.6"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cross-web@0.7.0",
+      "dependsOn": [
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cryptography@48.0.1",
+      "dependsOn": [
+        "pkg:pypi/cffi@2.0.0",
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cssselect2@0.8.0",
+      "dependsOn": [
+        "pkg:pypi/tinycss2@1.5.1",
+        "pkg:pypi/webencodings@0.5.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/exceptiongroup@1.3.1",
+      "dependsOn": [
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/fastapi-cloud-cli@0.11.0",
+      "dependsOn": [
+        "pkg:pypi/fastar@0.11.0",
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/pydantic@2.13.4",
+        "pkg:pypi/rich-toolkit@0.18.1",
+        "pkg:pypi/rignore@0.7.6",
+        "pkg:pypi/sentry-sdk@2.52.0",
+        "pkg:pypi/typer@0.26.8",
+        "pkg:pypi/uvicorn@0.40.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/fastmcp-slim@3.3.1",
+      "dependsOn": [
+        "pkg:pypi/platformdirs@4.5.1",
+        "pkg:pypi/pydantic-settings@2.14.2",
+        "pkg:pypi/pydantic@2.13.4",
+        "pkg:pypi/python-dotenv@1.2.2",
+        "pkg:pypi/rich@14.3.2",
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/genai-prices@0.0.62",
+      "dependsOn": [
+        "pkg:pypi/httpx2@2.5.0",
+        "pkg:pypi/pydantic@2.13.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/ghp-import@2.1.0",
+      "dependsOn": [
+        "pkg:pypi/python-dateutil@2.9.0.post0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/gitdb@4.0.12",
+      "dependsOn": [
+        "pkg:pypi/smmap@5.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/google-auth@2.49.2",
+      "dependsOn": [
+        "pkg:pypi/cryptography@48.0.1",
+        "pkg:pypi/pyasn1-modules@0.4.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/google-genai@1.73.1",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.12.1",
+        "pkg:pypi/distro@1.9.0",
+        "pkg:pypi/google-auth@2.49.2",
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/pydantic@2.13.4",
+        "pkg:pypi/requests@2.33.0",
+        "pkg:pypi/sniffio@1.3.1",
+        "pkg:pypi/tenacity@9.1.3",
+        "pkg:pypi/websockets@15.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/googleapis-common-protos@1.72.0",
+      "dependsOn": [
+        "pkg:pypi/protobuf@6.33.5"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/httpcore@1.0.9",
+      "dependsOn": [
+        "pkg:pypi/certifi@2026.1.4",
+        "pkg:pypi/h11@0.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/httpcore2@2.5.0",
+      "dependsOn": [
+        "pkg:pypi/h11@0.16.0",
+        "pkg:pypi/truststore@0.10.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/importlib-metadata@8.7.1",
+      "dependsOn": [
+        "pkg:pypi/zipp@3.23.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jaraco-classes@3.4.0",
+      "dependsOn": [
+        "pkg:pypi/more-itertools@10.8.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jaraco-context@6.1.0",
+      "dependsOn": [
+        "pkg:pypi/backports-tarfile@1.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jaraco-functools@4.4.0",
+      "dependsOn": [
+        "pkg:pypi/more-itertools@10.8.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/joserfc@1.6.8",
+      "dependsOn": [
+        "pkg:pypi/cryptography@48.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jsonschema@4.26.0",
+      "dependsOn": [
+        "pkg:pypi/attrs@25.4.0",
+        "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "pkg:pypi/referencing@0.36.2",
+        "pkg:pypi/rpds-py@0.30.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jsonschema-specifications@2025.9.1",
+      "dependsOn": [
+        "pkg:pypi/referencing@0.36.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/keyring@25.7.0",
+      "dependsOn": [
+        "pkg:pypi/importlib-metadata@8.7.1",
+        "pkg:pypi/jaraco-classes@3.4.0",
+        "pkg:pypi/jaraco-context@6.1.0",
+        "pkg:pypi/jaraco-functools@4.4.0",
+        "pkg:pypi/jeepney@0.9.0",
+        "pkg:pypi/pywin32-ctypes@0.2.3",
+        "pkg:pypi/secretstorage@3.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/logfire@4.22.0",
+      "dependsOn": [
+        "pkg:pypi/executing@2.2.1",
+        "pkg:pypi/opentelemetry-exporter-otlp-proto-http@1.39.1",
+        "pkg:pypi/opentelemetry-instrumentation@0.60b1",
+        "pkg:pypi/opentelemetry-sdk@1.39.1",
+        "pkg:pypi/protobuf@6.33.5",
+        "pkg:pypi/rich@14.3.2",
+        "pkg:pypi/tomli@2.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/markdown-it-py@4.0.0",
+      "dependsOn": [
+        "pkg:pypi/mdurl@0.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mcp@1.26.0",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.12.1",
+        "pkg:pypi/httpx-sse@0.4.3",
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/pydantic-settings@2.14.2",
+        "pkg:pypi/pydantic@2.13.4",
+        "pkg:pypi/pyjwt@2.13.0",
+        "pkg:pypi/python-multipart@0.0.32",
+        "pkg:pypi/pywin32@311",
+        "pkg:pypi/sse-starlette@3.2.0",
+        "pkg:pypi/starlette@1.3.1",
+        "pkg:pypi/typing-inspection@0.4.2",
+        "pkg:pypi/uvicorn@0.40.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mkdocs@1.6.1",
+      "dependsOn": [
+        "pkg:pypi/click@8.2.1",
+        "pkg:pypi/colorama@0.4.6",
+        "pkg:pypi/ghp-import@2.1.0",
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/markdown@3.10.1",
+        "pkg:pypi/markupsafe@3.0.3",
+        "pkg:pypi/mergedeep@1.3.4",
+        "pkg:pypi/mkdocs-get-deps@0.2.0",
+        "pkg:pypi/packaging@25.0",
+        "pkg:pypi/pathspec@1.0.4",
+        "pkg:pypi/pyyaml-env-tag@1.1",
+        "pkg:pypi/pyyaml@6.0.3",
+        "pkg:pypi/watchdog@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mkdocs-autorefs@1.4.3",
+      "dependsOn": [
+        "pkg:pypi/markdown@3.10.1",
+        "pkg:pypi/markupsafe@3.0.3",
+        "pkg:pypi/mkdocs@1.6.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mkdocs-get-deps@0.2.0",
+      "dependsOn": [
+        "pkg:pypi/mergedeep@1.3.4",
+        "pkg:pypi/platformdirs@4.5.1",
+        "pkg:pypi/pyyaml@6.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mkdocstrings-python@2.0.3",
+      "dependsOn": [
+        "pkg:pypi/griffelib@2.0.0",
+        "pkg:pypi/mkdocs-autorefs@1.4.3",
+        "pkg:pypi/mkdocstrings@1.0.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/openai@2.32.0",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.12.1",
+        "pkg:pypi/distro@1.9.0",
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/jiter@0.13.0",
+        "pkg:pypi/pydantic@2.13.4",
+        "pkg:pypi/sniffio@1.3.1",
+        "pkg:pypi/tqdm@4.67.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/opentelemetry-api@1.39.1",
+      "dependsOn": [
+        "pkg:pypi/importlib-metadata@8.7.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/opentelemetry-exporter-otlp-proto-common@1.39.1",
+      "dependsOn": [
+        "pkg:pypi/opentelemetry-proto@1.39.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/opentelemetry-exporter-otlp-proto-http@1.39.1",
+      "dependsOn": [
+        "pkg:pypi/googleapis-common-protos@1.72.0",
+        "pkg:pypi/opentelemetry-api@1.39.1",
+        "pkg:pypi/opentelemetry-exporter-otlp-proto-common@1.39.1",
+        "pkg:pypi/opentelemetry-proto@1.39.1",
+        "pkg:pypi/opentelemetry-sdk@1.39.1",
+        "pkg:pypi/requests@2.33.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/opentelemetry-instrumentation@0.60b1",
+      "dependsOn": [
+        "pkg:pypi/opentelemetry-api@1.39.1",
+        "pkg:pypi/opentelemetry-semantic-conventions@0.60b1",
+        "pkg:pypi/packaging@25.0",
+        "pkg:pypi/wrapt@1.17.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/opentelemetry-instrumentation-httpx@0.60b1",
+      "dependsOn": [
+        "pkg:pypi/opentelemetry-api@1.39.1",
+        "pkg:pypi/opentelemetry-instrumentation@0.60b1",
+        "pkg:pypi/opentelemetry-semantic-conventions@0.60b1",
+        "pkg:pypi/opentelemetry-util-http@0.60b1",
+        "pkg:pypi/wrapt@1.17.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/opentelemetry-proto@1.39.1",
+      "dependsOn": [
+        "pkg:pypi/protobuf@6.33.5"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/opentelemetry-sdk@1.39.1",
+      "dependsOn": [
+        "pkg:pypi/opentelemetry-api@1.39.1",
+        "pkg:pypi/opentelemetry-semantic-conventions@0.60b1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/opentelemetry-semantic-conventions@0.60b1",
+      "dependsOn": [
+        "pkg:pypi/opentelemetry-api@1.39.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/outcome@1.3.0.post0",
+      "dependsOn": [
+        "pkg:pypi/attrs@25.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/prompt-toolkit@3.0.52",
+      "dependsOn": [
+        "pkg:pypi/wcwidth@0.5.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/py-key-value-aio@0.4.4",
+      "dependsOn": [
+        "pkg:pypi/beartype@0.22.9"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pyasn1-modules@0.4.2",
+      "dependsOn": [
+        "pkg:pypi/pyasn1@0.6.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pydantic-ai-slim@2.1.0",
+      "dependsOn": [
+        "pkg:pypi/exceptiongroup@1.3.1",
+        "pkg:pypi/genai-prices@0.0.62",
+        "pkg:pypi/griffelib@2.0.0",
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/opentelemetry-api@1.39.1",
+        "pkg:pypi/pydantic-graph@2.1.0",
+        "pkg:pypi/pydantic@2.13.4",
+        "pkg:pypi/typing-inspection@0.4.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pydantic-evals@2.1.0",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.12.1",
+        "pkg:pypi/logfire-api@4.22.0",
+        "pkg:pypi/pydantic-ai-slim@2.1.0",
+        "pkg:pypi/pyyaml@6.0.3",
+        "pkg:pypi/rich@14.3.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pydantic-graph@2.1.0",
+      "dependsOn": [
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/logfire-api@4.22.0",
+        "pkg:pypi/typing-inspection@0.4.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pymdown-extensions@10.21.3",
+      "dependsOn": [
+        "pkg:pypi/markdown@3.10.1",
+        "pkg:pypi/pyyaml@6.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pynacl@1.6.2",
+      "dependsOn": [
+        "pkg:pypi/cffi@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "dependsOn": [
+        "pkg:pypi/six@1.17.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pyyaml-env-tag@1.1",
+      "dependsOn": [
+        "pkg:pypi/pyyaml@6.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/referencing@0.36.2",
+      "dependsOn": [
+        "pkg:pypi/attrs@25.4.0",
+        "pkg:pypi/rpds-py@0.30.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/requests@2.33.0",
+      "dependsOn": [
+        "pkg:pypi/certifi@2026.1.4",
+        "pkg:pypi/charset-normalizer@3.4.4",
+        "pkg:pypi/idna@3.18",
+        "pkg:pypi/urllib3@2.7.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/rich@14.3.2",
+      "dependsOn": [
+        "pkg:pypi/markdown-it-py@4.0.0",
+        "pkg:pypi/pygments@2.20.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/rich-toolkit@0.18.1",
+      "dependsOn": [
+        "pkg:pypi/click@8.2.1",
+        "pkg:pypi/rich@14.3.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/secretstorage@3.5.0",
+      "dependsOn": [
+        "pkg:pypi/cryptography@48.0.1",
+        "pkg:pypi/jeepney@0.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/sentry-sdk@2.52.0",
+      "dependsOn": [
+        "pkg:pypi/certifi@2026.1.4",
+        "pkg:pypi/urllib3@2.7.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/sqlalchemy@2.0.46",
+      "dependsOn": [
+        "pkg:pypi/greenlet@3.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/sse-starlette@3.2.0",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.12.1",
+        "pkg:pypi/starlette@1.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/tiktoken@0.12.0",
+      "dependsOn": [
+        "pkg:pypi/regex@2026.1.15",
+        "pkg:pypi/requests@2.33.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/tinycss2@1.5.1",
+      "dependsOn": [
+        "pkg:pypi/webencodings@0.5.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/tqdm@4.67.3",
+      "dependsOn": [
+        "pkg:pypi/colorama@0.4.6"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/trio@0.32.0",
+      "dependsOn": [
+        "pkg:pypi/attrs@25.4.0",
+        "pkg:pypi/cffi@2.0.0",
+        "pkg:pypi/exceptiongroup@1.3.1",
+        "pkg:pypi/idna@3.18",
+        "pkg:pypi/outcome@1.3.0.post0",
+        "pkg:pypi/sniffio@1.3.1",
+        "pkg:pypi/sortedcontainers@2.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/werkzeug@3.1.6",
+      "dependsOn": [
+        "pkg:pypi/markupsafe@3.0.3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Core dependencies
+requests>=2.31
+packaging>=23.0
+PyYAML>=6.0
+rich>=13.0          # console output (optional at runtime; plain fallback exists)
+
+# The bonus LLM executive summary (--llm-summary) uses OpenRouter via
+# `requests` — no extra package needed, just set OPENROUTER_API_KEY.
+# Only if you prefer the direct Anthropic API (ANTHROPIC_API_KEY) instead:
+# anthropic>=0.40
